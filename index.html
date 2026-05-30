@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Бонус</title>
+<script>
+const ua = navigator.userAgent;
+
+if (
+  ua.includes("TikTok") ||
+  ua.includes("musical_ly") ||
+  ua.includes("Bytedance")
+) {
+  window.location.href = "tiktok.html";
+} else {
+  window.location.href = "bonus.html";
+}
+</script>
+</head>
+<body></body>
+</html>
